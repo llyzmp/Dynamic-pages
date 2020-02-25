@@ -1,0 +1,98 @@
+/* 返回按钮 */
+header .back1 {
+    display: block;
+    float: left;
+    width: .24rem;
+    height: .48rem;
+    margin: .24rem 0 0 .533333rem;
+}
+.pingjia {
+    height: .746667rem;
+    line-height: .746667rem;
+}
+.pingjia p {
+    float: left;
+    line-height: .746667rem;
+    font-size: .533333rem;
+    font-weight: 700;
+    color: #333;
+}
+.pingjia span {
+    float: left;
+    margin-left: .133333rem;
+    font-size: .32rem;
+    color: #999;
+}
+/* 评价详情 */
+.eva1 {
+    margin-top: 1.28rem;
+}
+.user1 {
+    height: 2.666667rem;
+}
+.user1 .touxiang {
+    float: left;
+    display: block;
+    width: .826667rem;
+    height: .826667rem;
+    border-radius: 50%;
+}
+.user1 .message {
+    float: left;
+    margin-left: .133333rem;
+}
+.message ul li {
+    float: left;
+    width: .32rem;
+    height: .32rem;
+    margin-right: .133333rem;
+}
+.message ul li img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.username {
+    height: .533333rem;
+    line-height: .533333rem;
+}
+.username span {
+    float: left;
+    font-size: .32rem;
+}
+.username .huiyuan {
+    float: left;
+    display: block;
+    width: 1.333333rem;
+    height: .426667rem;
+    line-height: .426667rem;
+    margin: 0 .266667rem;
+    background-color: #285397;
+    color: #FBDA83;
+    font-size: .213333rem; 
+    text-align: center;
+    border-radius: .08rem;
+}
+.username .date1 {
+    margin-left: 2.133333rem;
+    color: #999;
+}
+.user1 p {
+    font-size: .32rem;
+    color: #999;
+    width: 8rem;
+    height: .96rem;
+    margin-top: .346667rem;
+    padding: 0 .266667rem;
+}
+.userEvalute .peitu {
+    width: 10.24rem;
+    height: 10.24rem;
+}
+.userEvalute .peitu img {
+    width: 100%;
+    height: 100%;
+}
+.user1 p,.username span {
+    font-size: .32rem;
+}

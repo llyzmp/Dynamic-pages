@@ -1,0 +1,63 @@
+header img {
+    display: block;
+    width: .24rem;
+    height: .48rem;
+    margin: .24rem 0 0 .533333rem;
+}
+/* 日本位置 */
+.posit {
+    height: 1.066667rem;
+    line-height: 1.066667rem;
+}
+.posit h3 {
+    float: left;
+    font-size: .533333rem;
+}
+.posit img {
+    float: left;
+    margin-top: .266667rem;
+    width: .453333rem;
+    height: .293333rem;
+}
+.posit span {
+    float: right;
+    font-size: .373333rem;
+    font-weight: 700;
+}
+.search2 {
+    position: relative;
+    width: 9.066667rem;
+    height: 1.12rem;
+    margin: .533333rem 0 0 .506667rem;
+    background-color: #eee;
+    border-radius: .533333rem;
+}
+.search2 input {
+    display: block;
+    width: 85%;
+    height: 100%;
+    font-size: .373333rem;
+    padding-left: .4rem;
+    background-color: #eee;
+    border-radius: .533333rem;
+}
+.search2 img {
+    position: absolute;
+    top: .266667rem;
+    right: .48rem;
+    width: .56rem;
+    height: .56rem;
+}
+/* 搜索历史*/
+.history {
+    margin-top: .133333rem;
+    padding: 0 .266667rem;
+}
+.history li {
+    height: 1.466667rem;
+    line-height: 1.466667rem;
+    font-size: .32rem;
+    color: #666;
+    border-bottom: .026667rem solid #eee;
+    padding-left: .4rem;
+}

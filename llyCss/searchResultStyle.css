@@ -1,0 +1,124 @@
+/* 头部搜索 */
+header .back {
+    float: left;
+    width: 1.013333rem;
+    height: 1.013333rem;
+}
+header .back img {
+    display: block;
+    width: .266667rem;
+    height: .533333rem;
+    margin: .24rem auto;
+}
+header .search {
+    position: relative;
+    float: left;
+    width: 8.533333rem;
+    height: 1.013333rem;
+    border-radius: .533333rem;
+    background-color: #eee;
+}
+header .search input {
+    display: block;
+    height: .8rem;
+    /* width: 2.133333rem; */
+    padding: 0 .4rem;
+    font-size: .32rem;
+    margin-top: .106667rem;
+    margin-left: .266667rem;
+    background-color: #FDDF00;
+    border-radius: .533333rem;
+}
+.search .close1 {
+    position: absolute;
+    top: .32rem;
+    right: .4rem;
+    width: .4rem;
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+    font-size: .32rem;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+.price {
+    height: 1.28rem;
+    border-bottom: .026667rem solid #eee;
+}
+.price span {
+    float: right;
+    font-size: .32rem;
+    margin-top: .64rem;
+    margin-left: .64rem;
+}
+.price span a {
+    display: block;
+    color: #aaa;
+}
+.sanjiao {
+    position: relative;
+    float: right;
+    margin-left: .133333rem;
+    width: .4rem;
+    height: .533333rem;
+    margin-top: .64rem;
+}
+.sanjiao .up,.sanjiao .down {
+    position: absolute;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border: .16rem solid transparent;
+}
+.sanjiao .up {
+    top: -0.133333rem;
+    border-bottom-color: #ccc;
+}
+ .price .sanjiao .down {
+    border-top-color: #ccc;
+    bottom: -0.08rem;
+}
+/* 商品 */
+.product {
+    margin-top: .4rem;
+}
+.product ul li{
+    width: 4.266667rem;
+    height: 5.706667rem;
+    margin-top: .266667rem;
+    border: .026667rem solid #eee;
+    border-radius: .266667rem;
+}
+.product ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product li .pic1 {
+    width: 4.24rem;
+    height: 3.146667rem;
+}
+.product li .qi {
+    display: block;
+    width: .373333rem;
+    height: .266667rem;
+    margin: .373333rem 0 .186667rem .32rem;
+}
+.product li p {
+    font-size: .32rem;
+    margin-left: .32rem;
+}
+.product li span {
+    float: left;
+    font-size: .373333rem;
+    color: #E61284;
+    margin-left: .32rem;
+
+} 
+.product li .car {
+    float: right;
+    width: 20px;
+    margin: .133333rem .266667rem ;
+    height: .346667rem;
+}

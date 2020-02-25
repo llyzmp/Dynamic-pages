@@ -1,0 +1,121 @@
+/* 半透明框 */
+.mark {
+    /* 先隐藏 */
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, .3);
+    z-index: 99;
+}
+/* 弹出购买框 */
+.goumai {
+    /* 先隐藏 */
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10rem;
+    height: 10.213333rem;
+    background-color: #fff;
+    border-radius: .4rem .4rem 0 0 ;
+    padding: .4rem .506667rem 1.066667rem .533333rem;
+    z-index: 999;
+}
+.top {
+    border-bottom: .026667rem solid #eee;
+}
+.tppic {
+    float: left;
+    margin-top: .213333rem;
+    width: 1.866667rem;
+    height: 1.866667rem;
+    margin-bottom: .586667rem;
+}
+.pri01 {
+    float: left;
+    margin-left: .32rem;
+}
+.pri01 p {
+    font-size: .426667rem;
+    color: #E4007B;
+    margin-top: .666667rem;
+    font-weight: 700;
+}
+.pri01 span {
+    display: block;
+    font-size: .32rem;
+    color: #333;
+}
+.close01 {
+    float: right;
+    width: .613333rem;
+    height: .613333rem;
+}
+.guige {
+    margin: .826667rem 0;
+    font-size: .373333rem;
+    color: #000;
+}
+.guige p,.guige span {
+    float: left;
+    margin-left: .24rem;
+}
+.guige p {
+    margin-top: .08rem;
+}
+.guige span {
+    height: .64rem;
+    line-height: .64rem;
+    padding: 0 .4rem;
+    border: .026667rem solid #eee
+}
+.curt {
+    background-color: #FDDF00;  
+}
+.number p {
+    float: left;
+    font-size: .373333rem;
+    margin: .08rem 0 0 .24rem;
+    color: #333;
+}
+.number .jiajian {
+    float: left;
+    width: 2.133333rem;
+    height: .693333rem;
+    margin-left: .266667rem;
+    font-size: .32rem;
+    border: .026667rem solid #eee;
+    color: #333;
+}
+.jiajian span {
+    float: left;
+    width: .506667rem;
+    height: 100%;
+    text-align: center;
+    line-height: .693333rem;
+}
+.jiajian input {
+    float: left;
+    width: 1.04rem;
+    outline: none;
+    height: 100%;
+    text-align: center;
+    line-height: .693333rem;
+    border-left: .026667rem solid #eee;
+    border-right: .026667rem solid #eee;
+}
+.queding {
+    width: 8.266667rem;
+    height: 1.2rem;
+    margin: 1.786667rem auto 1.066667rem;
+    line-height: 1.2rem;
+    text-align: center;
+    background-color: #FDDF00;
+    font-size: .426667rem;
+    color: #333;
+    border-radius: .666667rem;
+}

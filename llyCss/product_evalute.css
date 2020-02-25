@@ -1,0 +1,125 @@
+header .back2 {
+    display: block;
+    float: left;
+    width: .24rem;
+    height: .48rem;
+    margin-top: .24rem;
+}
+header .car {
+    width: .693333rem;
+    height: .586667rem;
+    float: right;
+    margin-top: .133333rem;
+}
+header .car {
+    position: relative;
+}
+header .car .num {
+    position: absolute;
+    top: -0.133333rem;
+    right: -0.133333rem;
+    width: .32rem;
+    height: .32rem;
+    line-height: .32rem;
+    text-align: center;
+    background-color: #E4007B;
+    border-radius: 50%;
+    font-size: .213333rem;
+    color: #fff;
+}
+header .car img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+header .circle {
+    float: right;
+    margin-left: .533333rem;
+    margin-top: .373333rem;
+}
+header .circle li{
+    float: right;
+    width: .133333rem;
+    height: .133333rem;
+    background-color: #000;
+    border-radius: 50%;
+    margin-right: .133333rem;
+}
+/* 详情边框 */
+.userEvalute {
+    height: 5.866667rem;
+    border: .026667rem solid #eee;
+    padding: .666667rem .4rem .533333rem;
+    border-radius: .266667rem;
+}
+/* 距离上部距离 */
+.eva2 {
+    margin-top: .666667rem;
+}
+.evalutepic li {
+    float: left;
+    margin-left: .266667rem;
+    width: 1.866667rem;
+    height: 1.866667rem;
+    background-color: pink;
+    border-radius: .266667rem;
+    overflow: hidden;
+}
+.evalutepic img {
+    width: 100%;
+    height: 100%;
+}
+/* 底部 */
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 1.6rem;
+    background: #fff;
+    border-top: .026667rem solid #eee;
+}
+.stor,.collect {
+    float: left;
+    width: 1.333333rem;
+    height: 1.333333rem;
+    margin: .4rem 0 0 .8rem;
+}
+.stor {
+    margin-left: .666667rem;
+}
+.collect {
+    margin-left: 1.066667rem;
+}
+.stor img,.collect img {
+    display: block;
+    width: .64rem;
+    height: .64rem;
+    margin: 0 auto;
+}
+.stor p,.collect p {
+    margin-top: .133333rem;
+    font-size: .24rem;
+    text-align: center;
+}
+.collect p {
+    margin-left: .08rem;
+}
+/* 添加购物车 */
+.addcar,.purchase {
+    float: left;
+    width: 2.24rem;
+    height: 1.306667rem;
+    margin-top: .133333rem;
+    border-radius: .666667rem;
+    background-color: #FDDF00;
+    font-size: .32rem;
+    line-height: 1.386667rem;
+    text-align: center;
+}
+.purchase {
+    margin-left: .133333rem;
+}
+.addcar {
+    margin-left: .933333rem;
+    background-color: #003A9B;
+    color: #fff;
+}

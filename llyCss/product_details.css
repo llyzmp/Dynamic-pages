@@ -1,0 +1,326 @@
+section {
+    position: relative;
+    margin-top: .4rem;
+    padding: 0 .453333rem;
+}
+section .sp1{
+    font-size: .533333rem;
+    color: #333333;
+    font-weight: 700;
+}
+section .sp2{
+    font-size: .32rem;
+    color: #999;
+    margin-left: .133333rem;
+}
+/* 轮播图 */
+/*插件代码*/
+html, body {
+    position: relative;
+    height: 100%;
+  }
+  body {
+    /* background: #eee; */
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  /*自己修改小圆点*/
+  .swiper-pagination {
+      left: 50%;
+      transform: translateX(-50%)!important;
+      margin-bottom: .4rem;
+      font-size: .266667rem;
+  }
+ .lunbo .swiper-pagination-bullet{
+      margin: 0 .133333rem;
+      width: .4rem;
+      height: .053333rem;
+      border-radius: 0;
+      
+  }
+  .swiper-pagination-bullet-active {
+      background-color: #000!important;
+  }
+/*插件代码css结束*/
+section .lunbo {
+    margin-top: .4rem;
+}
+section .lunbo ul {
+    width: 9.066667rem;
+    height: 6.133333rem;
+    border-radius: .266667rem;
+    margin-top: .426667rem;
+}
+section .lunbo img {
+    width: 100%;
+    height: 100%;
+}
+section .lunbo ol {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: .426667rem;
+
+}
+section .lunbo ol li {
+    float: left;
+    margin-left: .08rem;
+    width: .373333rem;
+    height: .053333rem;
+    background-color: #ccc;
+}
+section .lunbo ol .current {
+    background-color: #000;
+}
+/* 价格 */
+.price1 {
+    margin-top: .853333rem;
+    padding: .533333rem .4rem .933333rem;
+    border: .026667rem solid #eee;
+    border-radius: .4rem;
+}
+.price1 .kucun span {
+    font-size: .32rem;
+    color: #999;
+}
+.price1 .kucun .one {
+    font-size: .48rem;
+    font-weight: 700;
+    color: #E4007B;
+    margin-right: .266667rem;
+}
+.price1 .kucun .thr {
+    margin-left: 4rem;
+}
+/* 分享 */
+.fenxiang {
+    margin-top: .266667rem;
+}
+.fenxiang p {
+    float: left;
+    font-size: .426667rem;
+    font-weight: 700;
+}
+.fenxiang img {
+    float: right;
+    width: .48rem;
+    height: .613333rem;
+}
+.price1 .dianpu{
+    font-size: .373333rem;
+    color: #666;
+    margin-top: .8rem;
+}
+.weizhi {
+    margin-top: .4rem;
+}
+.weizhi p {
+    font-size: .373333rem;
+    color: #666;
+    float: left;
+}
+.weizhi img {
+    float: right;
+    width: .453333rem;
+    height: .56rem;
+
+}
+/* 优惠 */
+.youhui {
+    margin-top: .32rem;
+    padding: .533333rem .666667rem .533333rem .533333rem;
+    border: 1px solid #eee;
+    border-radius: .4rem;
+}
+.youhui .quan span:nth-child(1),.youhui .quan span:nth-child(3) {
+    float: left;
+    font-size: .373333rem;
+    color: #666;
+}
+.youhui .quan span:nth-child(2) {
+    float: left;
+    width: .933333rem;
+    height: .506667rem;
+    font-size: .32rem;
+    color: #3C3A39;
+    text-align: center;
+    line-height: .586667rem;
+    border-radius: .4rem;
+    background-color: #FDDF00;
+    margin-right: .08rem;
+}
+.youhui .quan span:nth-child(4) a{
+    float: right;
+    font-size: .373333rem;
+    color: #999;
+}
+.jian span{
+    float: left;
+    margin-top: .373333rem;
+    height: .506667rem;
+    line-height: .586667rem;
+    text-align: center;
+    font-size: .32rem;
+    border-radius: .4rem;
+}
+.jian span:nth-child(1) {
+    width: 1.6rem;
+    margin-left: 1.2rem;
+    background-color: #FDDF00;
+    color: #333;
+}
+.jian span:nth-child(2){
+    width: 2.24rem;
+    color: #F0C600;
+    margin-left: .266667rem;
+    border: .026667rem solid #FDDF00;
+}
+.fuwu {
+    margin-top: .48rem;
+}
+.fuwu span {
+    float: left;
+    font-size: .373333rem;
+    color: #666;
+}
+.fuwu ul {
+    float: left;
+}
+.fuwu ul li {
+    float: left;
+}
+.fuwu ul li img{
+    float: left;
+    margin-left: .266667rem;
+    width: .506667rem;
+    height: .506667rem;
+}
+.fuwu ul li p {
+    float: left;
+    margin: .08rem 0 0 .08rem;
+    font-size: .32rem;
+    color: #333;
+}
+/* 好评 */
+.haoping {
+    margin-top: .32rem;
+    padding: .8rem .533333rem;
+    border: 1px solid #eee;
+    border-radius: .4rem;
+}
+.hao span {
+    float: left;
+    font-size: .373333rem;
+    font-weight: 700;
+    color: #333;
+}
+.hao p {
+    float: right;
+    font-size: .32rem;
+    color: #E4007B;
+}
+.unam {
+    line-height: .826667rem;
+    margin-top: .693333rem;
+}
+.unam img {
+    float: left;
+    width: .826667rem;
+    height: .826667rem;
+    border-radius: 50%;
+}
+.unam p {
+    float: left;
+    margin-left: .186667rem;
+    font-size: 12px;
+    color:#333;
+}
+.unam span {
+    float: left;
+    margin: .133333rem .186667rem 0 .186667rem;
+    width: 1.333333rem;
+    height: .426667rem;
+    line-height: .48rem;
+    text-align: center;
+    color: #FBDA83;
+    font-size: 9px;
+    background: #003A9B;
+    border-radius: .133333rem;
+}
+.haoping .pinglun {
+    margin-top: .346667rem;
+    font-size: .32rem;
+    color: #666;
+}
+.gengduo a {
+    margin: .373333rem 0 0 2.666667rem;
+    display: block;
+    width: 2.666667rem;
+    height: .773333rem;
+    line-height: .773333rem;
+    text-align: center;
+    background-color: #FDDF00;
+    color: #3C3A39;
+    font-size: .32rem;
+    border-radius: .4rem;
+}
+/* 图文详情 */
+.tuwen {
+    margin-top: .32rem;
+    padding: 1.066667rem .4rem 2.133333rem;
+    border: .026667rem solid #eee;
+    border-radius: .4rem;
+}
+.tuwen span {
+    font-size: .373333rem;
+    color: #333;
+    font-weight: 700;
+}
+.tuwen img {
+    margin: .72rem 0 1.146667rem;
+    width: 8.106667rem;
+    height: 8.106667rem;
+}
+.tuwen p {
+    font-size: .373333rem;
+    color: #666;
+    line-height: .88rem;
+    text-align: center;
+}
+/* 为你推荐 */
+.tuijian1 h2{
+    font-size: .533333rem;
+    margin: .666667rem 0 -0.266667rem .133333rem;
+}
+.tuijian1 .product {
+    margin-bottom: 2.133333rem;
+}
+
